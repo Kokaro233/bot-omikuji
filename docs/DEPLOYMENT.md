@@ -120,7 +120,7 @@ git commit -m "Record BOT Chain Mainnet deployment"
 
 ## 3. Vercel：新建独立项目
 
-1. 🔑 Vercel Dashboard → **Add New → Project** → 导入 `Kokaro233/botchain-omikuji`。这会创建一个新项目。
+1. 🔑 Vercel Dashboard → **Add New → Project** → 导入 `Kokaro233/bot-omikuji`。这会创建一个新项目。
 2. 构建设置：Framework Preset 选 **Vite**，Build Command 用 `npm run build`，Output Directory 填 `dist`。
 3. 在 Production 环境设置以下环境变量：
 
