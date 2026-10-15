@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "BOT Omikuji · BOT Chain 链上御神签",
+    "description": "走进月夜像素神社，每天抽一支御神签，签运记录在 BOT Chain 主网上。"
+  },
+  "brandHome": "BOT Omikuji 首页",
+  "nav": {
+    "primary": "主导航",
+    "mobile": "底部导航",
+    "home": "首页",
+    "draw": "抽签",
+    "collection": "御签收藏",
+    "profile": "我的",
+    "latest": "最近御签",
+    "toggleMenu": "展开或收起菜单",
+    "expandMobile": "展开底部菜单",
+    "collapseMobile": "收起底部菜单"
+  },
+  "language": {
+    "switchTo": "EN",
+    "label": "Switch to English"
+  },
+  "wallet": {
+    "connect": "连接钱包",
+    "switchNetwork": "切换到 BOT Chain",
+    "notConnected": "钱包未连接",
+    "wrongNetwork": "网络错误，请切换到 BOT Chain",
+    "contractMissing": "合约未配置",
+    "contractMissingTitle": "BOT Chain 主网合约尚未配置",
+    "notConnectedShort": "未连接"
+  },
+  "walletSheet": {
+    "close": "关闭",
+    "title": "在钱包 App 中打开",
+    "body": "这个手机浏览器里没有检测到钱包。请在钱包 App 的内置浏览器中打开本页，再连接钱包。",
+    "copy": "复制本页链接",
+    "copied": "已复制链接",
+    "walletConnect": "使用 WalletConnect 扫码连接"
+  },
+  "footer": {
+    "contract": "主网合约 {{address}}",
+    "demo": "演示模式 · 未连接主网",
+    "pending": "主网合约部署准备中"
+  },
+  "explorer": {
+    "viewTx": "在 BOT Chain Scan 查看交易"
+  },
+  "defaultName": "御签守护者",
+  "loading": "加载中"
+}

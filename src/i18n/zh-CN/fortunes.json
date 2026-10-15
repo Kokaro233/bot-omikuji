@@ -1,0 +1,37 @@
+{
+  "0": {
+    "name": "鸿运当头",
+    "message": "盛运已至，心怀光明，勇敢前行。",
+    "romaji": "Daikichi"
+  },
+  "1": {
+    "name": "吉运渐升",
+    "message": "守心待时，福门渐开。",
+    "romaji": "Chūkichi"
+  },
+  "2": {
+    "name": "小福相随",
+    "message": "微光成炬，小福终成大喜。",
+    "romaji": "Shōkichi"
+  },
+  "3": {
+    "name": "吉祥顺遂",
+    "message": "循迹而行，良缘自会相逢。",
+    "romaji": "Kichi"
+  },
+  "4": {
+    "name": "福在后至",
+    "message": "花期未至，静候属于你的季节。",
+    "romaji": "Suekichi"
+  },
+  "5": {
+    "name": "谨慎徐行",
+    "message": "今日宜缓，柔韧者不折。",
+    "romaji": "Kyō"
+  },
+  "6": {
+    "name": "静待转机",
+    "message": "暂歇自省，长夜终将破晓。",
+    "romaji": "Daikyō"
+  }
+}

@@ -1,0 +1,6 @@
+artifacts
+cache
+e2e/.shots
+deployments/rehearsal.json
+.env*
+!.env.example

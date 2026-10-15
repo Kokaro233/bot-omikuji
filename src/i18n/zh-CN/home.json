@@ -1,0 +1,34 @@
+{
+  "eyebrow": "月光写下的祝福",
+  "tagline": "来抽取你的链上运势签吧～",
+  "howTo": "如何抽签",
+  "steps": ["连接你的钱包", "诚心抽取御神签", "签运记录于 BOT Chain", "收藏并分享祝福"],
+  "countTitle": "✦ 链上御签总数",
+  "count": {
+    "demo": "演示模式不计入链上",
+    "unconfigured": "BOT Chain 主网合约部署准备中",
+    "unavailable": "暂时无法连接 BOT Chain RPC",
+    "live": "读取自 BOT Chain 主网合约"
+  },
+  "guestTotal": "链上与访客祈愿共 {{total}} 份 · 访客体验 {{guest}} 份不上链",
+  "guestOnly": "访客体验 {{guest}} 份不上链",
+  "cta": "求取御神签",
+  "limitNote": "每个钱包每日可求十签 · 每日 00:00（UTC+8）刷新",
+  "network": {
+    "title": "BOT Chain 网络",
+    "fast": "亚秒级出块",
+    "gas": "低 Gas 成本",
+    "evm": "兼容 EVM",
+    "verifiable": "每签可在链上查证"
+  },
+  "blessing": {
+    "title": "✦ 今日祝福 ✦",
+    "line1": "福运总会眷顾",
+    "line2": "勇敢前行的人。"
+  },
+  "alt": {
+    "maiden": "迎接你的巫女",
+    "box": "御神签签筒",
+    "rune": "神社御守徽章"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "avatarAlt": "Fortune Keeper avatar",
+    "eyebrow": "Visitor profile",
+    "welcome": "Welcome, traveler from afar",
+    "connected": "Each wallet is its own visitor profile. You can view on-chain fortunes without signing in.",
+    "disconnected": "Connect a wallet to see its on-chain fortunes, or try a free guest draw without one."
+  },
+  "account": {
+    "title": "Wallet & account",
+    "noWallet": "No wallet connected",
+    "useConnect": "Use “Connect wallet” at the top of the page",
+    "onBotChain": "BOT Chain Mainnet · connected",
+    "wrongNetwork": "Not on BOT Chain. Switch networks at the top of the page",
+    "signedIn": "Signed in with your wallet. Your favorites and nickname are visible only to this wallet.",
+    "nickname": "Nickname",
+    "nicknamePlaceholder": "2–32 characters",
+    "saveNickname": "Save nickname",
+    "signOut": "Sign out",
+    "signInHelp": "You don't need to sign in to view on-chain records. To sync favorites and set a nickname, sign in with your wallet. Signing is free: it sends no transaction, costs no gas, and grants no access to your assets.",
+    "signIn": "Sign in with wallet",
+    "signing": "Confirm the signature in your wallet…",
+    "noEmail": "No email needed. Connect a wallet to begin. Guest draws need no wallet."
+  },
+  "mine": {
+    "title": "My fortunes",
+    "onChain": "On-chain",
+    "favorites": "Favorites",
+    "open": "Open collection",
+    "empty": "Once you connect a wallet, all of its fortunes on BOT Chain will appear here."
+  },
+  "sync": {
+    "summary_one": "{{count}} on-chain fortune synced to your account",
+    "summary_other": "{{count}} on-chain fortunes synced to your account",
+    "last": "Last synced at {{time}}",
+    "never": "Not synced yet",
+    "syncing": "Syncing…",
+    "now": "Sync now",
+    "done_one": "Sync complete: {{count}} on-chain fortune.",
+    "done_other": "Sync complete: {{count}} on-chain fortunes.",
+    "failed": "Sync failed. Please try again later."
+  },
+  "notice": {
+    "signedIn_one": "Signed in. {{count}} on-chain fortune synced.",
+    "signedIn_other": "Signed in. {{count}} on-chain fortunes synced.",
+    "signedOut": "Signed out. Your wallet is still connected, and its on-chain records are still visible.",
+    "signOutFailed": "Something went wrong while signing out. You've been signed out on this device.",
+    "nicknameLength": "Nicknames must be 2–32 characters.",
+    "nicknameSaved": "Nickname saved.",
+    "nicknameFailed": "Couldn't save your nickname. Sign in with your wallet again, then retry."
+  },
+  "authError": {
+    "rejected": "You cancelled the signature, so you're not signed in. Signing is free and sends no transaction.",
+    "expired": "This sign-in request has expired. Please sign in again.",
+    "wrongDomain": "The signed message doesn't match this site, so it was rejected. Make sure you're on the official site.",
+    "mismatch": "The signature doesn't match the connected wallet. Please try again.",
+    "walletTaken": "This wallet is already linked to another account.",
+    "notConfigured": "Accounts aren't available on this site yet.",
+    "network": "Can't reach the account service. Check your connection and try again.",
+    "generic": "Sign-in didn't finish. Please try again later."
+  },
+  "blessing": {
+    "title": "✦ Bonds made by moonlight ✦",
+    "text": "May every connection lead to good news."
+  }
+}

@@ -1,0 +1,38 @@
+import { beforeEach, describe, expect, it } from "vitest";
+import { canDrawDemoToday, storage } from "@/src/lib/storage";
+import type { DrawResult } from "@/src/types";
+
+describe("demo persistence", () => {
+  beforeEach(() => localStorage.clear());
+  it("allows ten daily draws and prevents an eleventh on the same UTC day", () => {
+    const wallet = "0x1111111111111111111111111111111111111111";
+    expect(canDrawDemoToday(wallet)).toBe(true);
+    const result: DrawResult = { id: "one", fortuneId: 0, walletAddress: wallet, txHash: "", createdAt: new Date().toISOString(), chainId: 0, claimed: true, favorite: false, mode: "demo" };
+    storage.saveHistory(Array.from({ length: 10 }, (_, index) => ({ ...result, id: `draw-${index}` })));
+    expect(canDrawDemoToday(wallet)).toBe(false);
+    expect(canDrawDemoToday("0x2222222222222222222222222222222222222222")).toBe(true);
+  });
+
+  it("limits guest trials per UTC day instead of forever", () => {
+    expect(storage.getGuestTrialCount()).toBe(0);
+    for (let index = 0; index < 5; index += 1) storage.useGuestTrial();
+    expect(storage.getGuestTrialCount()).toBe(5);
+    localStorage.setItem("botchain-omikuji:guest-trials:v1", JSON.stringify({ date: "2000-01-01", count: 5 }));
+    expect(storage.getGuestTrialCount()).toBe(0);
+  });
+
+  it("migrates the old lifetime guest trial counter into a fresh daily counter", () => {
+    localStorage.setItem("botchain-omikuji:guest-trials:v1", JSON.stringify(5));
+    expect(storage.getGuestTrialCount()).toBe(0);
+    expect(storage.useGuestTrial()).toBe(1);
+  });
+});
+
+describe("off-chain result ids", () => {
+  it("are prefixed so they can never look like a transaction hash", async () => {
+    const { newGuestResultId } = await import("@/src/lib/storage");
+    const id = newGuestResultId();
+    expect(id).toMatch(/^guest-[0-9a-zA-Z-]{8,64}$/);
+    expect(id).not.toMatch(/^0x[0-9a-f]{64}$/);
+  });
+});

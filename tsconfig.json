@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "types": ["vite/client", "node"],
+    "plugins": [],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "tests/**/*.ts",
+    "hardhat.config.ts",
+    "vitest.config.ts",
+    "scripts/**/*.ts",
+    "e2e/**/*.ts",
+    "test/**/*.ts",
+    "supabase/functions/_shared/botchain.ts",
+    "supabase/functions/_shared/verifyDraw.ts",
+    "supabase/functions/_shared/handlers.ts",
+    "supabase/functions/_shared/fortuneCatalog.ts",
+    "supabase/functions/_shared/walletAuth.ts",
+    "**/*.mts"
+  ],
+  "exclude": ["node_modules", "supabase/functions/*/index.ts", "supabase/functions/_shared/edge.ts"]
+}

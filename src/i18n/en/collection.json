@@ -1,0 +1,39 @@
+{
+  "eyebrow": "✦ Shrine archive",
+  "title": "My collection",
+  "sort": {
+    "label": "Sort",
+    "newest": "Newest first",
+    "oldest": "Oldest first"
+  },
+  "stats": {
+    "total": "Fortunes",
+    "favorites": "Favorites"
+  },
+  "chainSync": {
+    "loading": "Reading BOT Chain…",
+    "error": "⚠ Can't reach the BOT Chain RPC · Retry",
+    "ready": "✓ On-chain records loaded · Refresh"
+  },
+  "cloudSync": {
+    "loading": "Syncing account…",
+    "done": "✓ Account synced · Refresh",
+    "idle": "Sync account"
+  },
+  "filter": {
+    "label": "Filter",
+    "all": "✦ All fortunes",
+    "favorites": "♥ Favorites"
+  },
+  "search": "Search by fortune or transaction hash…",
+  "empty": {
+    "title": "Nothing here yet",
+    "body": "Try another filter, or go and draw a new blessing.",
+    "cta": "Draw a fortune"
+  },
+  "aria": {
+    "avatar": "Avatar",
+    "favorite": "Toggle favorite",
+    "openTx": "Open transaction"
+  }
+}

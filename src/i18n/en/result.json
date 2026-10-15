@@ -1,0 +1,49 @@
+{
+  "empty": {
+    "title": "No fortune yet",
+    "body": "Step into the shrine, and let fate choose a path for you.",
+    "cta": "Draw a fortune"
+  },
+  "label": {
+    "shared": "A fortune shared by a friend",
+    "own": "Your fortune"
+  },
+  "stats": {
+    "career": "Work",
+    "love": "Love",
+    "wealth": "Wealth"
+  },
+  "button": {
+    "drawOwn": "Draw your own",
+    "share": "Share",
+    "copied": "Link copied",
+    "shared": "Shared",
+    "drawAgain": "Draw again",
+    "favorite": "Add to favorites"
+  },
+  "proof": {
+    "liveTitle": "On-chain record · BOT Chain",
+    "guestTitle": "Guest draw · not on-chain",
+    "wallet": "Wallet",
+    "tx": "Transaction",
+    "record": "Record no.",
+    "block": "Block",
+    "time": "Time",
+    "source": "Source",
+    "loading": "Loading…",
+    "localRandom": "Random on this device · no transaction",
+    "pendingHash": "This draw is recorded in the contract. The transaction link will appear once its hash has synced.",
+    "guestNote": "Guest draws create no transaction. Connect a wallet to draw on-chain."
+  },
+  "sharedNote": "✦ A friend shared this fortune with you · Draw your own on BOT Chain",
+  "recorded": {
+    "live": "⚡ This fortune is permanently recorded on BOT Chain Mainnet.",
+    "guest": "⚡ This fortune is saved on this device only. It is not on-chain."
+  },
+  "closing": {
+    "label": "Closing blessing",
+    "text": "May today's fortune light the road ahead.",
+    "toCollection": "View collection"
+  },
+  "shareText": "I drew {{kanji}} · {{name}} at BOT Omikuji."
+}

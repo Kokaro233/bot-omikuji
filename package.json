@@ -1,0 +1,62 @@
+{
+  "name": "botchain-omikuji",
+  "version": "1.0.0-rc.1",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "contract:compile": "hardhat compile --build-profile production",
+    "test:contract": "hardhat test",
+    "test:e2e": "hardhat compile --build-profile production && node e2e/local-e2e.ts",
+    "test:all": "npm run typecheck && npm test && npm run contract:compile && npm run test:contract && npm run build",
+    "deploy:dry-run": "hardhat run scripts/deploy-botchain.ts --network botchainMainnet --build-profile production",
+    "deploy:mainnet": "echo 'Run: CONFIRM_MAINNET_DEPLOY=deploy-fortune-contract-to-botchain-677 npm run deploy:dry-run' && exit 1",
+    "contract:check": "node scripts/check-deployment.ts",
+    "contract:verify-source": "hardhat verify --network botchainMainnet --build-profile production",
+    "verify:draw": "node scripts/verify-draw.ts",
+    "deploy:metamask": "hardhat compile --build-profile production && node scripts/metamask-deploy.ts",
+    "deploy:record": "node scripts/record-deployment.ts"
+  },
+  "dependencies": {
+    "@rainbow-me/rainbowkit": "^2.2.11",
+    "@supabase/supabase-js": "^2.110.7",
+    "@tanstack/react-query": "^5.101.2",
+    "framer-motion": "^12.42.2",
+    "i18next": "^26.4.5",
+    "lucide-react": "^1.25.0",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "react-i18next": "^17.0.17",
+    "viem": "^2.55.2",
+    "wagmi": "^2.19.5"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.10",
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.7",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "dotenv": "^17.4.2",
+    "hardhat": "^3.19.0",
+    "jsdom": "^29.1.1",
+    "playwright-core": "^1.64.1",
+    "solc": "^0.8.36",
+    "typescript": "5.9.3",
+    "vite": "8.0.13",
+    "vitest": "^4.1.10"
+  },
+  "overrides": {
+    "qr": "0.5.5"
+  },
+  "type": "module"
+}

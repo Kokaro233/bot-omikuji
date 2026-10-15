@@ -1,0 +1,21 @@
+{
+  "network": "BOT Chain Mainnet",
+  "chainId": 677,
+  "contract": "FortuneContract",
+  "contractAddress": "0x2ecc765e201feee88adc81cd4abad62cf327b73c",
+  "deployer": "0xc1061ce914bda2e533f887e24630fd76ebed7aac",
+  "transactionHash": "0x757dd4cab165cf4d722a97e3d23fc7baf48b4bbe655cc4b61d22c3fc671e789f",
+  "blockNumber": "26794339",
+  "gasUsed": "650513",
+  "effectiveGasPrice": "20000000000",
+  "solcBuild": "solc-0_8_28-739095686b6cf3058e03738b6f06c498d904eeee",
+  "buildProfile": "production",
+  "deployMethod": "browser wallet (MetaMask) via scripts/metamask-deploy.ts",
+  "dailyDrawLimit": 10,
+  "totalDrawsAtRecord": "0",
+  "deployedAt": "2026-10-15T16:02:53.000Z",
+  "explorer": {
+    "contract": "https://scan.botchain.ai/address/0x2ecc765e201feee88adc81cd4abad62cf327b73c",
+    "transaction": "https://scan.botchain.ai/tx/0x757dd4cab165cf4d722a97e3d23fc7baf48b4bbe655cc4b61d22c3fc671e789f"
+  }
+}

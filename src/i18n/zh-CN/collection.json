@@ -1,0 +1,39 @@
+{
+  "eyebrow": "✦ 神社御签阁",
+  "title": "我的御签收藏",
+  "sort": {
+    "label": "排序",
+    "newest": "最新优先",
+    "oldest": "最早优先"
+  },
+  "stats": {
+    "total": "御签",
+    "favorites": "珍藏"
+  },
+  "chainSync": {
+    "loading": "正在读取 BOT Chain…",
+    "error": "⚠ 无法连接 BOT Chain RPC · 点击重试",
+    "ready": "✓ 已读取链上记录 · 点击刷新"
+  },
+  "cloudSync": {
+    "loading": "正在同步账户…",
+    "done": "✓ 账户已同步 · 点击刷新",
+    "idle": "同步账户收藏"
+  },
+  "filter": {
+    "label": "筛选",
+    "all": "✦ 全部御签",
+    "favorites": "♥ 我的珍藏"
+  },
+  "search": "搜索签运或交易哈希……",
+  "empty": {
+    "title": "这层签阁还是空的",
+    "body": "换个筛选条件，或者去求一份新的祝福。",
+    "cta": "前往抽签"
+  },
+  "aria": {
+    "avatar": "头像",
+    "favorite": "收藏或取消收藏",
+    "openTx": "打开交易"
+  }
+}

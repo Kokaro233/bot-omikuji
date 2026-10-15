@@ -1,0 +1,9 @@
+{
+  "0": { "name": "Great Blessing", "romaji": "Daikichi", "message": "Great fortune has arrived. Keep a bright heart, and go forward without fear." },
+  "1": { "name": "Middle Blessing", "romaji": "Chūkichi", "message": "Keep your heart steady and bide your time. Little by little, the gate of fortune opens." },
+  "2": { "name": "Small Blessing", "romaji": "Shōkichi", "message": "Faint lights gather into a torch, and small blessings into great joy." },
+  "3": { "name": "Blessing", "romaji": "Kichi", "message": "Follow the signs you are given. A good encounter will come of its own accord." },
+  "4": { "name": "Blessing Yet to Come", "romaji": "Suekichi", "message": "The blossoms have not opened yet. Wait quietly—your season is still on its way." },
+  "5": { "name": "Misfortune", "romaji": "Kyō", "message": "Go slowly today. What bends does not break." },
+  "6": { "name": "Great Misfortune", "romaji": "Daikyō", "message": "Rest a while and look within. Even the longest night ends in dawn." }
+}

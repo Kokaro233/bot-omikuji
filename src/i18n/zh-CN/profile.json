@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "avatarAlt": "御签守护者头像",
+    "eyebrow": "参拜者档案",
+    "welcome": "欢迎你，远道而来的旅人",
+    "connected": "一个钱包，就是一份参拜者档案。链上御签无需登录即可查看。",
+    "disconnected": "连接钱包即可查看你的链上御签；没有钱包也可以先免费体验。"
+  },
+  "account": {
+    "title": "钱包与账户",
+    "noWallet": "尚未连接钱包",
+    "useConnect": "请使用页面顶部的「连接钱包」",
+    "onBotChain": "BOT Chain Mainnet · 已连接",
+    "wrongNetwork": "当前网络不是 BOT Chain，请在页面顶部切换网络",
+    "signedIn": "已通过钱包签名登录。收藏与昵称只对这个钱包可见。",
+    "nickname": "昵称",
+    "nicknamePlaceholder": "2–32 个字符",
+    "saveNickname": "保存昵称",
+    "signOut": "退出账户",
+    "signInHelp": "查看链上记录无需登录。如需同步收藏、设置昵称，请用钱包签名登录：签名免费，不发送交易，不花 Gas，也不授予任何资产权限。",
+    "signIn": "签名登录",
+    "signing": "请在钱包中确认签名…",
+    "noEmail": "不需要邮箱。连接钱包即可开始；访客体验不需要钱包。"
+  },
+  "mine": {
+    "title": "我的御签",
+    "onChain": "链上御签",
+    "favorites": "珍藏",
+    "open": "打开御签收藏",
+    "empty": "连接钱包后，这里会显示该钱包在 BOT Chain 上的全部御签。"
+  },
+  "sync": {
+    "summary": "账户已同步 {{count}} 份链上御签",
+    "last": "最近同步 {{time}}",
+    "never": "尚未同步",
+    "syncing": "同步中…",
+    "now": "立即同步",
+    "done": "同步完成，共 {{count}} 份链上御签。",
+    "failed": "同步失败，请稍后重试。"
+  },
+  "notice": {
+    "signedIn": "签名登录成功，已同步 {{count}} 份链上御签。",
+    "signedOut": "已退出账户。钱包仍保持连接，链上记录依然可以查看。",
+    "signOutFailed": "退出时出现问题，本设备上的登录状态已清除。",
+    "nicknameLength": "昵称需要 2–32 个字符。",
+    "nicknameSaved": "昵称已保存。",
+    "nicknameFailed": "昵称保存失败，请重新签名登录后再试。"
+  },
+  "authError": {
+    "rejected": "你取消了签名，没有登录。签名免费，不会发送交易。",
+    "expired": "签名请求已过期，请重新签名登录。",
+    "wrongDomain": "签名消息与当前网站不符，已拒绝。请确认你访问的是正式网址。",
+    "mismatch": "签名与当前钱包不匹配，请重试。",
+    "walletTaken": "这个钱包已经绑定到另一个账户。",
+    "notConfigured": "账户服务尚未配置。",
+    "network": "暂时无法连接账户服务，请检查网络后重试。",
+    "generic": "签名登录没有完成，请稍后重试。"
+  },
+  "blessing": {
+    "title": "✦ 月下结缘 ✦",
+    "text": "愿每一次连接，都通往一份好消息。"
+  }
+}

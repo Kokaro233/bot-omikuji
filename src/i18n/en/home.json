@@ -1,0 +1,39 @@
+{
+  "eyebrow": "Blessings written by moonlight",
+  "tagline": "Come and draw your fortune, recorded on BOT Chain.",
+  "howTo": "How it works",
+  "steps": [
+    "Connect your wallet",
+    "Draw a fortune with a sincere heart",
+    "Your fortune is recorded on BOT Chain",
+    "Keep and share your blessings"
+  ],
+  "countTitle": "✦ Fortunes drawn on‑chain",
+  "count": {
+    "demo": "Demo draws are not counted on-chain",
+    "unconfigured": "Mainnet contract not deployed yet",
+    "unavailable": "Can't reach the BOT Chain RPC right now",
+    "live": "Read from the contract on BOT Chain Mainnet"
+  },
+  "guestTotal": "Total including guest draws: {{total}} · Guest draws (not on‑chain): {{guest}}",
+  "guestOnly": "Guest draws (not on‑chain): {{guest}}",
+  "cta": "Draw a fortune",
+  "limitNote": "Up to 10 draws per wallet each day · Resets at 00:00 (UTC+8)",
+  "network": {
+    "title": "BOT Chain network",
+    "fast": "Sub-second blocks",
+    "gas": "Low gas fees",
+    "evm": "EVM-compatible",
+    "verifiable": "Verifiable on‑chain"
+  },
+  "blessing": {
+    "title": "✦ Today's blessing ✦",
+    "line1": "Fortune always favors",
+    "line2": "those who walk on, unafraid."
+  },
+  "alt": {
+    "maiden": "A shrine maiden welcoming you",
+    "box": "Omikuji box",
+    "rune": "Shrine charm emblem"
+  }
+}

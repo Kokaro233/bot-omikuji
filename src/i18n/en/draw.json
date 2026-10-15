@@ -1,0 +1,60 @@
+{
+  "heading": "✦ The omikuji ritual ✦",
+  "dialogue": {
+    "ready": "Breathe slowly. When your heart is still, we can begin.",
+    "praying": "Your wish has been offered to the kami…",
+    "shaking": "The omikuji listen for the echo of fate…",
+    "stick": "Of all the paths, one has chosen you.",
+    "wallet": "Please confirm the transaction in your wallet. It records your draw on BOT Chain and costs a small gas fee.",
+    "confirming": "Waiting for confirmation on BOT Chain Mainnet…",
+    "paper": "Slowly, your fortune is being written…",
+    "revealed": "The kami have answered.",
+    "error": "The ritual was interrupted. You can try again."
+  },
+  "kamiNote": "Kami are the deities and spirits honored at Shinto shrines.",
+  "mode": {
+    "label": "Draw mode",
+    "chain": "On-chain draw",
+    "guest": "Guest draw"
+  },
+  "status": {
+    "unconfigured": "The BOT Chain Mainnet contract isn't configured yet, so on-chain draws are unavailable. For now, only guest draws (not on-chain) are open.",
+    "demo": "Demo mode · Results stay on this device and are never recorded on-chain",
+    "guest": "Guest draws left today: {{left}} · This device only · Not on-chain · Not in your collection",
+    "chain": "On-chain draw · BOT Chain Mainnet · {{remaining}} of 10 left today",
+    "gasEstimate": "Estimated gas fee: about {{amount}} BOT (your wallet shows the final amount)"
+  },
+  "button": {
+    "connect": "Connect wallet to draw",
+    "backToChain": "Back to on-chain draws",
+    "processing": "Ritual in progress",
+    "retry": "Try again",
+    "begin": "Make a wish"
+  },
+  "error": {
+    "dailyLimitContract": "The contract returned DailyLimitReached: this wallet has used today's on-chain draws. You can draw again after {{time}}.",
+    "contractError": "The contract returned {{name}}. The transaction was stopped before it was sent, and no gas was spent.",
+    "rejected": "You cancelled in your wallet. No transaction was sent.",
+    "insufficientEstimate": "Not enough BOT to pay the gas fee (about {{amount}} BOT needed). Top up and try again.",
+    "insufficient": "Not enough BOT in this wallet to pay the gas fee.",
+    "dailyLimit": "This wallet has used all 10 on-chain draws for today. Draws reset at 00:00 (UTC+8).",
+    "network": "Your wallet isn't on BOT Chain Mainnet yet. Allow this site to add and switch to it (Chain ID {{chainId}}), then try again.",
+    "rpc": "Can't reach the BOT Chain RPC. Check your connection and try again.",
+    "generic": "Your wallet didn't complete the transaction. Check the network and your BOT balance, then try again.",
+    "reverted": "The transaction was included on BOT Chain but failed (reverted). No fortune was saved.",
+    "noEvent": "The receipt has no FortuneDrawn event from this contract, so nothing was saved.",
+    "unconfirmed": "The transaction was sent but hasn't been confirmed yet. You can check it on BOT Chain Scan. Once it's confirmed, it will appear in your collection.",
+    "guestLimitWithWallet": "You've used today's 5 guest draws. Switch back to on-chain draws, or come back after 00:00 (UTC+8).",
+    "guestLimitNoWallet": "You've used today's 5 guest draws. Connect a wallet to draw on-chain, or come back after 00:00 (UTC+8).",
+    "guestLimit": "You've used today's 5 guest draws. Come back after 00:00 (UTC+8).",
+    "demoLimit": "This wallet has used all 10 draws for today. Come back after 00:00 (UTC+8), or use another wallet."
+  },
+  "timeZoneSuffix": " (UTC+8)",
+  "alt": {
+    "maiden": "A shrine maiden performing the omikuji ritual",
+    "rune": "Shrine charm emblem",
+    "box": "Omikuji box being shaken",
+    "stick": "Fortune stick",
+    "paper": "Fortune slip unfolding"
+  }
+}

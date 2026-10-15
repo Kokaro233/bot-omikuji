@@ -1,0 +1,49 @@
+{
+  "empty": {
+    "title": "还没有揭晓御签",
+    "body": "走进神社，让命运为你选择一条道路。",
+    "cta": "前往抽签"
+  },
+  "label": {
+    "shared": "好友分享的御神签",
+    "own": "你的御神签"
+  },
+  "stats": {
+    "career": "事业",
+    "love": "姻缘",
+    "wealth": "财运"
+  },
+  "button": {
+    "drawOwn": "我也求一签",
+    "share": "分享御签",
+    "copied": "已复制链接",
+    "shared": "已分享",
+    "drawAgain": "再求一签",
+    "favorite": "收藏这支御签"
+  },
+  "proof": {
+    "liveTitle": "BOT Chain 链上凭证",
+    "guestTitle": "访客体验 · 未上链",
+    "wallet": "钱包",
+    "tx": "交易哈希",
+    "record": "链上序号",
+    "block": "区块",
+    "time": "时间",
+    "source": "来源",
+    "loading": "读取中",
+    "localRandom": "本地随机 · 无交易",
+    "pendingHash": "这支签已记录在合约中，交易哈希同步后即可查看",
+    "guestNote": "访客体验不产生链上交易，连接钱包即可正式上链"
+  },
+  "sharedNote": "✦ 这是好友分享的御神签 · 求取一支属于你的链上运势签吧～",
+  "recorded": {
+    "live": "⚡ 这支御签已永久记录于 BOT Chain 主网。",
+    "guest": "⚡ 这支御签只保存在本设备，没有上链。"
+  },
+  "closing": {
+    "label": "结尾祝福",
+    "text": "愿今日之签，照亮你前行的路。",
+    "toCollection": "查看御签收藏"
+  },
+  "shareText": "我在 BOT Chain 上求得的御神签是「{{kanji}} · {{name}}」！"
+}

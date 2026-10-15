@@ -1,0 +1,60 @@
+{
+  "heading": "✦ 御神签祈愿仪式 ✦",
+  "dialogue": {
+    "ready": "放缓呼吸，待心绪澄明，便可开始。",
+    "praying": "你的愿望，已经传达给神明……",
+    "shaking": "御神签正在聆听命运的回响……",
+    "stick": "万千道路中，有一条选择了你。",
+    "wallet": "请在钱包中确认交易。这笔交易会把你的签记录在 BOT Chain 上，需要支付少量 Gas。",
+    "confirming": "正在等待 BOT Chain 主网确认……",
+    "paper": "你的命运，正在被缓缓写下……",
+    "revealed": "神明已作出回应。",
+    "error": "仪式暂时中断，可以重新尝试。"
+  },
+  "kamiNote": "",
+  "mode": {
+    "label": "抽签模式",
+    "chain": "正式上链",
+    "guest": "访客体验"
+  },
+  "status": {
+    "unconfigured": "BOT Chain 主网合约尚未配置，正式上链抽签暂未开放。目前只能使用不上链的访客体验。",
+    "demo": "演示模式 · 结果只保存在本设备，不会上链",
+    "guest": "今日访客体验剩余 {{left}} 次 · 只保存在本设备，不上链，不进入御签收藏",
+    "chain": "正式上链 · BOT Chain Mainnet · 今日剩余 {{remaining}} / 10 次",
+    "gasEstimate": "预计 Gas 费约 {{amount}} BOT（以钱包显示为准）"
+  },
+  "button": {
+    "connect": "连接钱包继续求签",
+    "backToChain": "切回正式上链",
+    "processing": "仪式进行中",
+    "retry": "再试一次",
+    "begin": "开始祈愿"
+  },
+  "error": {
+    "dailyLimitContract": "合约返回 DailyLimitReached：这个钱包今天的正式求签次数已经用完，请在 {{time}} 后再来。",
+    "contractError": "合约返回 {{name}}，交易在发送前已停止，没有花费 Gas。",
+    "rejected": "你在钱包中取消了操作，没有发送任何交易。",
+    "insufficientEstimate": "钱包中的 BOT 不足以支付 Gas（约需 {{amount}} BOT）。充值后再试。",
+    "insufficient": "钱包中的 BOT 不足以支付本次 Gas。",
+    "dailyLimit": "这个钱包今天的 10 次链上求签已经用完，每日 00:00（UTC+8）重置。",
+    "network": "钱包还没有切换到 BOT Chain Mainnet。请允许网站添加并切换网络（Chain ID {{chainId}}），然后再试一次。",
+    "rpc": "暂时无法连接 BOT Chain RPC，请检查网络后重试。",
+    "generic": "钱包没有完成这笔交易。请确认网络和 BOT 余额后再试。",
+    "reverted": "交易已上链，但执行失败（已回滚），本次结果没有保存。",
+    "noEvent": "交易回执中没有找到本合约的 FortuneDrawn 事件，结果没有保存。",
+    "unconfirmed": "交易已发送，但暂未确认。可以在 BOT Chain Scan 查看状态，确认后会自动出现在御签收藏中。",
+    "guestLimitWithWallet": "今天的 5 次访客体验已经用完。可以切回正式上链，或在 00:00（UTC+8）后再来。",
+    "guestLimitNoWallet": "今天的 5 次访客体验已经用完。请连接钱包正式上链，或在 00:00（UTC+8）后再来。",
+    "guestLimit": "今天的 5 次访客体验已经用完，请在 00:00（UTC+8）后再来。",
+    "demoLimit": "这个钱包今天的 10 次签运已经用完。请在 00:00（UTC+8）后再来，或换一个钱包。"
+  },
+  "timeZoneSuffix": "（UTC+8）",
+  "alt": {
+    "maiden": "正在主持求签仪式的巫女",
+    "rune": "神社御守徽章",
+    "box": "正在摇动的签筒",
+    "stick": "签条",
+    "paper": "正在展开的签纸"
+  }
+}

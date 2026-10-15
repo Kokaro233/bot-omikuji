@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "BOT Omikuji · Daily fortunes on BOT Chain",
+    "description": "Step into a moonlit pixel shrine and draw a daily omikuji fortune, recorded on BOT Chain Mainnet."
+  },
+  "brandHome": "BOT Omikuji home",
+  "nav": {
+    "primary": "Primary navigation",
+    "mobile": "Mobile navigation",
+    "home": "Home",
+    "draw": "Draw",
+    "collection": "Collection",
+    "profile": "Profile",
+    "latest": "Latest fortune",
+    "toggleMenu": "Toggle menu",
+    "expandMobile": "Show menu bar",
+    "collapseMobile": "Hide menu bar"
+  },
+  "language": {
+    "switchTo": "中文",
+    "label": "切换到中文"
+  },
+  "wallet": {
+    "connect": "Connect wallet",
+    "switchNetwork": "Switch to BOT Chain",
+    "notConnected": "Wallet not connected",
+    "wrongNetwork": "Wrong network. Switch to BOT Chain",
+    "contractMissing": "No contract",
+    "contractMissingTitle": "The BOT Chain Mainnet contract isn't configured",
+    "notConnectedShort": "Not connected"
+  },
+  "walletSheet": {
+    "close": "Close",
+    "title": "Open in a wallet app",
+    "body": "No wallet was found in this mobile browser. Open this page in your wallet app's built-in browser, then connect.",
+    "copy": "Copy page link",
+    "copied": "Link copied",
+    "walletConnect": "Scan a QR code with WalletConnect"
+  },
+  "footer": {
+    "contract": "Mainnet contract {{address}}",
+    "demo": "Demo mode · not connected to Mainnet",
+    "pending": "Mainnet contract not deployed yet"
+  },
+  "explorer": {
+    "viewTx": "View transaction on BOT Chain Scan"
+  },
+  "defaultName": "Fortune Keeper",
+  "loading": "Loading"
+}

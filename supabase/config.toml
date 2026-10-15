@@ -1,0 +1,37 @@
+# BOT Omikuji. Link this directory to its dedicated Supabase project
+# (`supabase link --project-ref <botchain-project-ref>`).
+project_id = "botchain-omikuji"
+
+[auth]
+# Replace with the production Vercel domain once it is assigned.
+site_url = "https://botchain-omikuji.vercel.app"
+additional_redirect_urls = ["https://botchain-omikuji.vercel.app/profile", "http://localhost:5173/profile"]
+
+[auth.email]
+enable_signup = true
+otp_length = 6
+otp_expiry = 600
+
+# Custom email templates need a custom SMTP provider on the free plan. Until one is
+# configured, Supabase's default sign-in link email is used (the app accepts the link).
+# Re-enable after setting up SMTP:
+# [auth.email.template.magic_link]
+# subject = "{{ .Token }}｜Omikuji · BOT Chain 登录验证码"
+# content_path = "./supabase/templates/magic-link.html"
+
+[functions.record-draw]
+verify_jwt = false
+
+[functions.wallet-claim]
+verify_jwt = true
+
+[functions.wallet-auth]
+verify_jwt = false
+
+# Wallet-first sign-in (SIWE / EIP-4361). Activation and one-time nonces: functions/wallet-auth.
+[auth.web3.ethereum]
+enabled = true
+
+[auth.rate_limit]
+# Web3 sign-ins per 5 minutes per IP address.
+web3 = 30
