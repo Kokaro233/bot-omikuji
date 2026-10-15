@@ -83,7 +83,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .maiden { object-fit: contain; pointer-events: none; user-select: none; filter: drop-shadow(0 10px 12px rgba(14,2,25,.68)); }
 .maiden-character{position:relative;display:flex;justify-content:center;align-items:flex-end}.home-character{width:min(39vw,530px);height:76vh}.maiden-idle { width: 100%; height: 100%; object-position: center bottom; }
 .home-fortune-box { position: absolute; z-index: 4; bottom: 9.5vh; width: min(11vw, 145px); height: 31vh; object-fit: contain; filter: drop-shadow(0 0 18px #ffac3d); }
-.shrine-rune { position:absolute;z-index:12;width:40px;height:40px;background:url("/brand/mark-glossy.webp") center/contain no-repeat;filter:drop-shadow(0 0 3px #fff6dc) drop-shadow(0 0 8px #ffcc67) drop-shadow(0 0 16px rgba(255,226,164,.8));pointer-events:none; }
+.shrine-rune { position:absolute;z-index:12;width:26px;height:26px;background:url("/brand/mark-glossy.webp") center/contain no-repeat;filter:drop-shadow(0 0 2px #fff6dc) drop-shadow(0 0 6px #ffcc67) drop-shadow(0 0 12px rgba(255,226,164,.7));pointer-events:none; }
 .home-rune{left:63.5%;top:38%;transform:translate(-50%,-50%)}.draw-rune{left:62%;top:29.5%;transform:translate(-50%,-50%)}
 .hero-cta { position: absolute; z-index: 6; bottom: 0; min-width: min(420px, 90%); white-space: nowrap; }
 .once-note { position: absolute; z-index: 5; bottom: -25px; margin: 0; color: #efd1a2; font-size: 11px; text-shadow: 0 2px 3px #000; }
