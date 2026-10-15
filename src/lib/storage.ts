@@ -4,7 +4,7 @@ const HISTORY_KEY = "botchain-omikuji:history:v1";
 const PROFILE_KEY = "botchain-omikuji:profile:v1";
 export const LAST_RESULT_KEY = "botchain-omikuji:last-result:v1";
 const GUEST_TRIALS_KEY = "botchain-omikuji:guest-trials:v1";
-export const GUEST_TRIAL_LIMIT = 5;
+export const GUEST_TRIAL_LIMIT = 1;
 export const DAILY_DRAW_LIMIT = 10;
 type GuestTrialState = { date: string; count: number };
 

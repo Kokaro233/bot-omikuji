@@ -44,9 +44,9 @@
     "reverted": "交易已上链，但执行失败（已回滚），本次结果没有保存。",
     "noEvent": "交易回执中没有找到本合约的 FortuneDrawn 事件，结果没有保存。",
     "unconfirmed": "交易已发送，但暂未确认。可以在 BOT Chain Scan 查看状态，确认后会自动出现在御签收藏中。",
-    "guestLimitWithWallet": "今天的 5 次访客体验已经用完。可以切回正式上链，或在 00:00（UTC+8）后再来。",
-    "guestLimitNoWallet": "今天的 5 次访客体验已经用完。请连接钱包正式上链，或在 00:00（UTC+8）后再来。",
-    "guestLimit": "今天的 5 次访客体验已经用完，请在 00:00（UTC+8）后再来。",
+    "guestLimitWithWallet": "今天的访客体验已经用过了。可以切回正式上链，或在 00:00（UTC+8）后再来。",
+    "guestLimitNoWallet": "今天的访客体验已经用过了。请连接钱包正式上链，或在 00:00（UTC+8）后再来。",
+    "guestLimit": "今天的访客体验已经用过了，请在 00:00（UTC+8）后再来。",
     "demoLimit": "这个钱包今天的 10 次签运已经用完。请在 00:00（UTC+8）后再来，或换一个钱包。"
   },
   "timeZoneSuffix": "（UTC+8）",

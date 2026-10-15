@@ -20,7 +20,7 @@
   "status": {
     "unconfigured": "The BOT Chain Mainnet contract isn't configured yet, so on-chain draws are unavailable. For now, only guest draws (not on-chain) are open.",
     "demo": "Demo mode · Results stay on this device and are never recorded on-chain",
-    "guest": "Guest draws left today: {{left}} · This device only · Not on-chain · Not in your collection",
+    "guest": "{{left}} guest draw left today · This device only · Not on-chain · Not in your collection",
     "chain": "On-chain draw · BOT Chain Mainnet · {{remaining}} of 10 left today",
     "gasEstimate": "Estimated gas fee: about {{amount}} BOT (your wallet shows the final amount)"
   },
@@ -44,9 +44,9 @@
     "reverted": "The transaction was included on BOT Chain but failed (reverted). No fortune was saved.",
     "noEvent": "The receipt has no FortuneDrawn event from this contract, so nothing was saved.",
     "unconfirmed": "The transaction was sent but hasn't been confirmed yet. You can check it on BOT Chain Scan. Once it's confirmed, it will appear in your collection.",
-    "guestLimitWithWallet": "You've used today's 5 guest draws. Switch back to on-chain draws, or come back after 00:00 (UTC+8).",
-    "guestLimitNoWallet": "You've used today's 5 guest draws. Connect a wallet to draw on-chain, or come back after 00:00 (UTC+8).",
-    "guestLimit": "You've used today's 5 guest draws. Come back after 00:00 (UTC+8).",
+    "guestLimitWithWallet": "You've already used today's guest draw. Switch back to on-chain draws, or come back after 00:00 (UTC+8).",
+    "guestLimitNoWallet": "You've already used today's guest draw. Connect a wallet to draw on-chain, or come back after 00:00 (UTC+8).",
+    "guestLimit": "You've already used today's guest draw. Come back after 00:00 (UTC+8).",
     "demoLimit": "This wallet has used all 10 draws for today. Come back after 00:00 (UTC+8), or use another wallet."
   },
   "timeZoneSuffix": " (UTC+8)",

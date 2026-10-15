@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it } from "vitest";
-import { canDrawDemoToday, storage } from "@/src/lib/storage";
+import { canDrawDemoToday, GUEST_TRIAL_LIMIT, storage } from "@/src/lib/storage";
 import type { DrawResult } from "@/src/types";
 
 describe("demo persistence", () => {
@@ -13,10 +13,11 @@ describe("demo persistence", () => {
     expect(canDrawDemoToday("0x2222222222222222222222222222222222222222")).toBe(true);
   });
 
-  it("limits guest trials per UTC day instead of forever", () => {
+  it("allows one guest trial per UTC+8 day", () => {
+    expect(GUEST_TRIAL_LIMIT).toBe(1);
     expect(storage.getGuestTrialCount()).toBe(0);
-    for (let index = 0; index < 5; index += 1) storage.useGuestTrial();
-    expect(storage.getGuestTrialCount()).toBe(5);
+    for (let index = 0; index < 3; index += 1) storage.useGuestTrial();
+    expect(storage.getGuestTrialCount()).toBe(1);
     localStorage.setItem("botchain-omikuji:guest-trials:v1", JSON.stringify({ date: "2000-01-01", count: 5 }));
     expect(storage.getGuestTrialCount()).toBe(0);
   });
